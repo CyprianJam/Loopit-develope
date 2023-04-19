@@ -1,6 +1,6 @@
 from apiclient import discovery
 
-api_key = 'AIzaSyByG2wn7WwPrea9_RMYeRejfVKi8yBf5xs'
+api_key = 'AIzaSyCGYAiRtgaFXZ1LscCUMDNhkw85R05rsL0'
 
 youtube = discovery.build('youtube','v3',developerKey = api_key)
 

@@ -2,7 +2,7 @@ from django.views.generic import ListView
 from apiclient import discovery
 from search_youtube.forms import SearchResult
 
-api_key = 'AIzaSyByG2wn7WwPrea9_RMYeRejfVKi8yBf5xs'
+api_key = 'AIzaSyCGYAiRtgaFXZ1LscCUMDNhkw85R05rsL0'
 class SearchResultsView(ListView):
     template_name = 'search_results.html'
     form_class = SearchResult

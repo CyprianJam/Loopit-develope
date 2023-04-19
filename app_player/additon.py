@@ -5,7 +5,7 @@ import re
 
 
 def get_length(urlval):
-    API_KEY = 'AIzaSyByG2wn7WwPrea9_RMYeRejfVKi8yBf5xs'
+    API_KEY = 'AIzaSyCGYAiRtgaFXZ1LscCUMDNhkw85R05rsL0'
     url_dit = f"https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id={urlval}&key={API_KEY}"
     response = requests.get(url_dit)
     data = response.json()

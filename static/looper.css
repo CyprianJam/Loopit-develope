@@ -4,11 +4,8 @@
     float: left;
 }
 
-.player {
-    
-    
-    
-}
+ 
+
 
 
 p {
@@ -17,20 +14,28 @@ p {
     
     
 }
-.loop label{
+.looper label{
     color: #fff;
+    
 }
 
-.loop .s_button a{
+
+
+
+.values .s_button a{
     color: #fff;
     text-decoration: none;
 }
 
-.loop .s_button a:hover {
+.values .s_button a:hover {
     text-decoration: underline;
 }
 
-.s_button_plus a {
-    color: black;
-    font-size: 1.5em;
+a {
+    color: #fff;
 }
+
+
+
+
+

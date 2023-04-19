@@ -1,27 +1,29 @@
 {% extends "base.html" %}
-{% load static %}
-<link rel="stylesheet" href="{% static 'style.css' %}">
-
 {% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'search_results.css' %}">
+
+
 
     <div class="jumbotron">
-        {#        <form method="post">#}
+        
 
         {% for object in object_list %}
 
-
-            <form action="{% url 'looper_basic' object.video_id  %}" method="post">
+        <div class="results">
+            <form class="looper_basic" action="{% url 'looper_basic' object.video_id  %}" method="post">
                 {% csrf_token %}
-                <div>
+                <div class="photo">
                     <img src="{{ object.video_thumbnail }}" alt=" "
                          style="width:300px;height:180px;">
                 </div>
-                <div>
-                    {{ object.video_id }}<br>
+                <div class="box_description">
+                    
                     {{ object.title }}<br>
-                    {{ object.description }}<br>
-                    <button type="submit"> Submit</button>
+                    
+                    <button class="btn_submit" type="submit"> Submit</button>
                 </div>
+            </div>
 
                 <br><br>
             </form>

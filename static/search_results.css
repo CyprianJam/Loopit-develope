@@ -1,0 +1,46 @@
+.jumbotron {
+    
+    
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    margin-top: 120px;
+    height: 100%;
+
+}
+
+.results {
+    display: flex;
+    float: left;
+    
+    margin-bottom: 10px;
+}
+
+.results form {
+    width: 100%;
+}
+
+.results span {
+    visibility: hidden;
+}
+
+
+.photo {
+    width: 300px;
+    float: left;
+    
+    
+}
+
+.box_description {
+    color: white;
+    float:left;
+    width:30%;
+    position: relative;
+    left: 15px;
+}
+
+.box_description .btn_submit {
+    font-size: 1em;
+    
+}

@@ -61,6 +61,7 @@
         <form action="" method="POST">
             {% csrf_token %}
             <br><br>
+            <div class="values">
             <label for="start_value"> START:</label>
             <input id="start_value" type="number" name="start_value" value={{ part.start_p }} min=0
                    max={{ part.stop_p }}>
@@ -69,10 +70,12 @@
                    max={{ length }}>
             <input id="id_value" type="hidden" name="id_value" value={{ part.id }}>
             <input type="submit" value="Change">
-            <div class="s_button">
-                <a href="{% url 'delete_loop' id=part.id %}" role="button"> Delete
+            
+            
+                <a class="s_button" href="{% url 'delete_loop' id=part.id %}" role="button"> Delete
                 </a>
             </div>
+            
         </form>
     </div>
     {% endfor %}

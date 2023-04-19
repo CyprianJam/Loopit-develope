@@ -1,0 +1,53 @@
+body { 
+    font-family: sans-serif;
+}
+
+
+p {
+    color:#fff;
+    width: 100%;
+    font-size: 1.1em;
+    
+}
+
+.buttons {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.btn_confirm{
+    width: 50%;
+    float: left;
+    font-size: 1.1em;
+    display:flex;  
+    justify-content:center;
+    align-items:center;
+}
+
+.btn_confirm button {
+    font-size: 1.1em;
+    border-radius: 6px;
+}
+
+.btn_confirm button:hover { 
+    text-decoration: underline;
+}
+
+    
+
+ 
+
+.btn_cancel {
+    font-size: 1.3em;
+    border-radius: 6px;
+    
+}
+
+.btn_cancel a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn_cancel a:hover {
+    text-decoration: underline;    
+}
