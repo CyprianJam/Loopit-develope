@@ -6,13 +6,13 @@
     left: 20%;
     margin-top: 120px;
     height: 100%;
-
+    clear:both;
 }
 
 .results {
     display: flex;
     float: left;
-    
+    clear:both;
     margin-bottom: 10px;
 }
 
