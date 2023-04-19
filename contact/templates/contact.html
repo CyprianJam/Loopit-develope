@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'contact.css' %}">
+<div class="contact">
+<form action="/contact/" method="post">
+   {% csrf_token %}
+   <h1>Contact</h1>
+   {% for field in form %}
+       <div class="fieldWrapper">
+           {{ field.errors }}
+           <label>
+           <label class="labels" for="{{ field.auto_id }}">{{ field.label_tag }} 
+           {{ field }}
+        </label>
+       </div>
+   {% endfor %}
+   <input class="btn-primary" type="submit" value="Submit">
+</div>
+</form>
+{% endblock %}

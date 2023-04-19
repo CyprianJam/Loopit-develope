@@ -1,0 +1,41 @@
+.box {
+    display: block;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+.search{
+    float: left;
+    margin-right: 15px;
+    height: 40px;
+    
+}
+
+.search input {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: white;
+    padding: 12px 15px 12px 10px;
+}
+
+
+.btn_search {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: rgb(175, 177, 176);
+    padding: 12px 15px 12px 10px;
+    position: relative;
+    right: 60px;
+
+}
+
+ion-icon {
+    color: white;
+    justify-content: center;
+  }

@@ -1,0 +1,36 @@
+.looper {
+    height: 100%;
+    margin-top: 10%;
+    float: left;
+}
+
+.player {
+    
+    
+    
+}
+
+
+p {
+    width: 100%;
+    color: #fff;
+    
+    
+}
+.loop label{
+    color: #fff;
+}
+
+.loop .s_button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.loop .s_button a:hover {
+    text-decoration: underline;
+}
+
+.s_button_plus a {
+    color: black;
+    font-size: 1.5em;
+}
